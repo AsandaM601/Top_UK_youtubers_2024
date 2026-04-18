@@ -1,6 +1,6 @@
 # Data Portfolio: Excel to PowerBI
 
-![Image Alt](assets/images/Screenshot%202026-04-18%20at%2001.32.43.jpg)
+![Image Alt](assets/images/Screenshot%202026-04-18%20at%2021.40.01.jpg)
 
 ## Table of Contents
 
