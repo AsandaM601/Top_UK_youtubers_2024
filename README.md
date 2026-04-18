@@ -117,3 +117,5 @@ Some of the data visuals that may be appropriate in answering our questions incl
 
 4.Horizontal bar chart
 
+![Image Alt](assets/images/Screenshot%202026-04-18%20at%2001.32.43.jpg)
+
