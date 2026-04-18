@@ -56,6 +56,7 @@ With this information, I can make more informed decisions about which Youtubers 
 # Data source
 
 What data is needed to achieve our objective?
+
 We need data on the top UK YouTubers in 2024 that includes their
 
 channel names
@@ -82,23 +83,35 @@ Design
 # Dashboard components required
 
 What should the dashboard contain based on the requirements provided?
+
 To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
 
-Who are the top 10 YouTubers with the most subscribers?
-Which 3 channels have uploaded the most videos?
-Which 3 channels have the most views?
-Which 3 channels have the highest average views per video?
-Which 3 channels have the highest views per subscriber ratio?
-Which 3 channels have the highest subscriber engagement rate per video uploaded?
+1.Who are the top 10 YouTubers with the most subscribers?
+
+2.Which 3 channels have uploaded the most videos?
+
+3.Which 3 channels have the most views?
+
+4.Which 3 channels have the highest average views per video?
+
+5.Which 3 channels have the highest views per subscriber ratio?
+
+6Which 3 channels have the highest subscriber engagement rate per video uploaded?
+
+
 For now, these are some of the questions we need to answer, this may change as we progress down our analysis.
 
 #Dashboard mockup
 
 What should it look like?
+
 Some of the data visuals that may be appropriate in answering our questions include:
 
-Table
-Treemap
-Scorecards
-Horizontal bar chart
+1.Table
+
+2.Treemap
+
+3.Scorecards
+
+4.Horizontal bar chart
 
