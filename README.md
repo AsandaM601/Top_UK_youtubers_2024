@@ -101,7 +101,9 @@ To understand what it should contain, we need to figure out what questions we ne
 
 For now, these are some of the questions we need to answer, this may change as we progress down our analysis.
 
-#Dashboard mockup
+
+
+# Dashboard mockup
 
 What should it look like?
 
