@@ -1,5 +1,6 @@
 # Data Portfolio: Excel to PowerBI
 
+![image alt](https://github.com/AsandaM601/Top_UK_youtubers_2024/blob/3c6b801bfaba41d571157adb36df3fbf74fd9db6/Screenshot%202026-04-18%20at%2021.40.01.jpg)
 
 ## Table of Contents
 
