@@ -758,3 +758,100 @@ ORDER BY
     net_profit DESC;
 ```
 ![Image Alt](assets/images/Image%202026-04-19%20at%2022.06.jpg)
+
+
+## 3. Youtubers with the most views
+
+### Calculation breakdown
+
+Campaign idea = Influencer marketing
+
+### a. DanTDM
+
+- Average views per video = 5.34 million
+  
+- Product cost = $5
+  
+- Potential units sold per video = 5.34 million x 2% conversion rate = 106,800 units sold
+  
+- Potential revenue per video = 106,800 x $5 = $534,000
+  
+- Campaign cost (3-month contract) = $130,000
+  
+- Net profit = $534,000 - $130,000 = $404,000
+
+### b. Dan Rhodes
+
+- Average views per video = 11.15 million
+  
+- Product cost = $5
+  
+- Potential units sold per video = 11.15 million x 2% conversion rate = 223,000 units sold
+ 
+- Potential revenue per video = 223,000 x $5 = $1,115,000
+  
+- Campaign cost (3-month contract) = $130,000
+  
+- Net profit = $1,115,000 - $130,000 = $985,000
+  
+### c. Mister Max
+
+- Average views per video = 14.06 million
+  
+- Product cost = $5
+  
+- Potential units sold per video = 14.06 million x 2% conversion rate = 281,200 units sold
+  
+- Potential revenue per video = 281,200 x $5 = $1,406,000
+  
+- Campaign cost (3-month contract) = $130,000
+  
+- Net profit = $1,406,000 - $130,000 = $1,276,000
+  
+### Best option from category: Mister Max
+
+## SQL query
+
+```sql
+/*
+1. Define variables
+2. Create a CTE that rounds the average views per video
+3. Select the columns needed and create calculated columns
+4. Filter results by selected YouTube channels
+5. Sort results by net profit (highest to lowest)
+*/
+
+-- 1. Define variables
+DECLARE @conversionRate FLOAT = 0.02;       -- 2% conversion rate
+DECLARE @productCost MONEY = 5.0;           -- $5 product cost
+DECLARE @campaignCost MONEY = 130000.0;     -- $130,000 campaign cost
+
+-- 2. Create CTE for channel calculations
+WITH ChannelData AS (
+    SELECT
+        channel_name,
+        total_views,
+        total_videos,
+        ROUND(CAST(total_views AS FLOAT) / total_videos, -4) AS avg_views_per_video
+    FROM
+        youtube_db.dbo.view_uk_youtubers_2024
+)
+
+-- 3. Select and calculate metrics
+SELECT
+    channel_name,
+    avg_views_per_video,
+    (avg_views_per_video * @conversionRate) AS potential_units_sold_per_video,
+    (avg_views_per_video * @conversionRate * @productCost) AS potential_revenue_per_video,
+    (avg_views_per_video * @conversionRate * @productCost) - @campaignCost AS net_profit
+FROM
+    ChannelData
+
+-- 4. Filter selected channels
+WHERE
+    channel_name IN ('Mister Max', 'DanTDM', 'Dan Rhodes')
+
+-- 5. Sort by net profit
+ORDER BY
+    net_profit DESC;
+```
