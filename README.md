@@ -349,3 +349,114 @@ HAVING
 - What does the dashboard look like?
 
 ![Image Alt](assets/images/ScreenRecording2026-04-19at21.06.43-ezgif.com-speed.gif)
+
+This shows the Top UK Youtubers in 2024 so far.
+
+## DAX Measures
+
+## 1. Total Subscribers (M)
+
+```DAX
+/*
+1. Define a constant for one million
+2. Calculate total subscribers from the dataset
+3. Convert the result into millions
+4. Return the final value
+*/
+
+Total Subscribers (M) = 
+VAR million = 1000000
+VAR sumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR totalSubscribers = DIVIDE(sumOfSubscribers, million)
+RETURN totalSubscribers
+```
+
+## 2. Total Views (B)
+
+```DAX
+/*
+1. Define a constant for one billion
+2. Calculate the total views from the dataset
+3. Convert the total views into billions
+4. Round the result to 2 decimal places
+5. Return the final value
+*/
+
+Total Views (B) = 
+VAR billion = 1000000000
+VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
+VAR totalViews = ROUND(sumOfTotalViews / billion, 2)
+
+RETURN totalViews
+```
+
+## 3. Total Videos
+
+```DAX
+/*
+1. Calculate the total number of videos from the dataset
+2. Return the final result
+*/
+
+Total Videos = 
+VAR totalVideos = SUM(view_uk_youtubers_2024[total_videos])
+
+RETURN totalVideos
+```
+
+## 4. Average Views Per Video (M)
+
+```DAX
+/*
+1. Calculate total views from the dataset
+2. Calculate total number of videos from the dataset
+3. Compute average views per video safely using DIVIDE
+4. Convert the result into millions
+5. Return the final value
+*/
+
+Average Views per Video (M) = 
+VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
+VAR sumOfTotalVideos = SUM(view_uk_youtubers_2024[total_videos])
+VAR avgViewsPerVideo = DIVIDE(sumOfTotalViews, sumOfTotalVideos, BLANK())
+VAR finalAvgViewsPerVideo = DIVIDE(avgViewsPerVideo, 1000000, BLANK())
+
+RETURN finalAvgViewsPerVideo
+```
+
+## 5. Subscriber Engagement Rate
+
+```DAX
+/*
+1. Calculate the total number of subscribers from the dataset
+2. Calculate the total number of videos from the dataset
+3. Compute subscriber engagement rate using DIVIDE
+4. Handle division by zero using BLANK()
+5. Return the final result
+*/
+
+Subscriber Engagement Rate = 
+VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR sumOfTotalVideos = SUM(view_uk_youtubers_2024[total_videos])
+VAR subscriberEngRate = DIVIDE(sumOfTotalSubscribers, sumOfTotalVideos, BLANK())
+
+RETURN subscriberEngRate
+```
+
+## 6. Views per subscriber
+```DAX
+/*
+1. Calculate total views from the dataset
+2. Calculate total subscribers from the dataset
+3. Compute views per subscriber using DIVIDE
+4. Handle division by zero using BLANK()
+5. Return the final result
+*/
+
+Views Per Subscriber = 
+VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
+VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR viewsPerSubscriber = DIVIDE(sumOfTotalViews, sumOfTotalSubscribers, BLANK())
+
+RETURN viewsPerSubscriber
+```
