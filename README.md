@@ -272,4 +272,4 @@ SELECT
 FROM
     view_uk_youtubers_2024;
 ```
-
+![Image Alt](assets/images/Screenshot%201.jpg)
