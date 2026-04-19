@@ -39,10 +39,11 @@ The Head of Marketing wants to find out who the top YouTubers are in 2024 to dec
 What is the ideal solution?
 To create a dashboard that provides insights into the top UK YouTubers in 2024 that includes their
 
-subscriber count
-total views
-total videos, and
-engagement metrics
+- subscriber count
+- total views
+- total videos, and
+- engagement metrics
+- 
 This will help the marketing team make informed decisions about which YouTubers to collaborate with for their marketing campaigns.
 
 # User story
@@ -59,13 +60,13 @@ What data is needed to achieve our objective?
 
 We need data on the top UK YouTubers in 2024 that includes their
 
-channel names
+- channel names
 
-total subscribers
+- total subscribers
 
-total views
+- total views
 
-total videos uploaded
+- total videos uploaded
 
 Where is the data coming from? The data is sourced from Kaggle (an Excel extract).
 
@@ -184,11 +185,11 @@ The aim is to refine our dataset to ensure it is structured and ready for analys
 
 The cleaned data should meet the following criteria and constraints:
 
--Only relevant columns should be retained.
+- Only relevant columns should be retained.
 
--All data types should be appropriate for the contents of each column.
+- All data types should be appropriate for the contents of each column.
 
--No column should contain null values, indicating complete data for all records.
+- No column should contain null values, indicating complete data for all records.
 
 
 Below is a table outlining the constraints on our cleaned dataset:
@@ -549,11 +550,11 @@ Here are the key questions we need to answer for our marketing client:
 
 For this analysis, we'll prioritize analysing the metrics that are important in generating the expected ROI for our marketing client, which are the YouTube channels wuth the most
 
--subscribers
+- subscribers
 
--total views
+- total views
 
--videos uploaded
+- videos uploaded
 
 ## Validation
 
@@ -565,45 +566,45 @@ Campaign idea = product placement
 
 # a.NoCopyrightSounds
 
--Average views per video = 6.92 million
+- Average views per video = 6.92 million
 
--Product cost = $5
+- Product cost = $5
 
--Potential units sold per video = 6.92 million x 2% conversion rate = 138,400 units sold
+- Potential units sold per video = 6.92 million x 2% conversion rate = 138,400 units sold
 
--Potential revenue per video = 138,400 x $5 = $692,000
+- Potential revenue per video = 138,400 x $5 = $692,000
 
--Campaign cost (one-time fee) = $50,000
+- Campaign cost (one-time fee) = $50,000
 
--Net profit = $692,000 - $50,000 = $642,000
+- Net profit = $692,000 - $50,000 = $642,000
 
 # b. DanTDM
 
--Average views per video = 5.34 million
+- Average views per video = 5.34 million
 
--Product cost = $5
+- Product cost = $5
 
--Potential units sold per video = 5.34 million x 2% conversion rate = 106,800 units sold
+- Potential units sold per video = 5.34 million x 2% conversion rate = 106,800 units sold
 
--Potential revenue per video = 106,800 x $5 = $534,000
+- Potential revenue per video = 106,800 x $5 = $534,000
 
--Campaign cost (one-time fee) = $50,000
+- Campaign cost (one-time fee) = $50,000
 
--Net profit = $534,000 - $50,000 = $484,000
+- Net profit = $534,000 - $50,000 = $484,000
 
 # c. Dan Rhodes
 
--Average views per video = 11.15 million
+- Average views per video = 11.15 million
 
--Product cost = $5
+- Product cost = $5
 
--Potential units sold per video = 11.15 million x 2% conversion rate = 223,000 units sold
+- Potential units sold per video = 11.15 million x 2% conversion rate = 223,000 units sold
 
--Potential revenue per video = 223,000 x $5 = $1,115,000
+- Potential revenue per video = 223,000 x $5 = $1,115,000
 
--Campaign cost (one-time fee) = $50,000
+- Campaign cost (one-time fee) = $50,000
 
--Net profit = $1,115,000 - $50,000 = $1,065,000
+- Net profit = $1,115,000 - $50,000 = $1,065,000
 
 
 ### Best option from category: Dan Rhodes
@@ -666,12 +667,17 @@ Campaign idea = sponsored video series
 ### a.GRM Daily
 
 
-Average views per video = 510,000
-Product cost = $5
-Potential units sold per video = 510,000 x 2% conversion rate = 10,200 units sold
-Potential revenue per video = 10,200 x $5= $51,000
-Campaign cost (11-videos @ $5,000 each) = $55,000
-Net profit = $51,000 - $55,000 = -$4,000 (potential loss)
+- Average views per video = 510,000
+- 
+- Product cost = $5
+- 
+- Potential units sold per video = 510,000 x 2% conversion rate = 10,200 units sold
+- 
+- Potential revenue per video = 10,200 x $5= $51,000
+- 
+- Campaign cost (11-videos @ $5,000 each) = $55,000
+- 
+- Net profit = $51,000 - $55,000 = -$4,000 (potential loss)
 
 ### b. Manchester City
 
@@ -690,19 +696,19 @@ Net profit = $51,000 - $55,000 = -$4,000 (potential loss)
 
 ### c. Yogscast
 
--Average views per video = 710,000
+- Average views per video = 710,000
 
--Product cost = $5
+- Product cost = $5
 
--Potential units sold per video = 710,000 x 2% conversion rate = 14,200 units sold
+- Potential units sold per video = 710,000 x 2% conversion rate = 14,200 units sold
 
--Potential revenue per video = 14,200 x $5= $71,000
+- Potential revenue per video = 14,200 x $5= $71,000
 
--Campaign cost (11-videos @ $5,000 each) = $55,000
+- Campaign cost (11-videos @ $5,000 each) = $55,000
 
--Net profit = $71,000 - $55,000 = $16,000 (profit)
+- Net profit = $71,000 - $55,000 = $16,000 (profit)
 
-=Best option from category: Yogscast
+- Best option from category: Yogscast
 
 ##SQL query
 
