@@ -339,3 +339,5 @@ GROUP BY
 HAVING
     COUNT(*) > 1;
 ```
+
+![Image Alt](assets/images/Screenshot%204.jpg)
