@@ -606,7 +606,7 @@ Campaign idea = product placement
 -Net profit = $1,115,000 - $50,000 = $1,065,000
 
 
-Best option from category: Dan Rhodes
+##Best option from category: Dan Rhodes
 
 ## SQL query
 
@@ -653,6 +653,8 @@ WHERE
 ORDER BY
     net_profit DESC;
 ```
+
+![Image Alt](assets/images/Image%202026-04-19%20at%2021.50.jpg)
 
 
 
