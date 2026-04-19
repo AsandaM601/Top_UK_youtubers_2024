@@ -605,5 +605,6 @@ Campaign idea = product placement
 
 -Net profit = $1,115,000 - $50,000 = $1,065,000
 
--Best option from category: Dan Rhodes
+
+Best option from category: Dan Rhodes
 
