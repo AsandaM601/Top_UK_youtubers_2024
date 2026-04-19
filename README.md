@@ -72,13 +72,13 @@ Where is the data coming from? The data is sourced from Kaggle (an Excel extract
 
 # Stages
 
-Developement
+- Developement
 
-Testing
+- Testing
 
-Analysis
+- Analysis
 
-Design
+- Design
 
 # Design
 
