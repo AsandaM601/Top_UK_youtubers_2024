@@ -708,9 +708,9 @@ Campaign idea = sponsored video series
 
 - Net profit = $71,000 - $55,000 = $16,000 (profit)
 
-- Best option from category: Yogscast
+### Best option from category: Yogscast
 
-##SQL query
+## SQL query
 
 
 
