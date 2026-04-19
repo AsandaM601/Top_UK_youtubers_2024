@@ -274,6 +274,7 @@ FROM
     view_uk_youtubers_2024;
 ```
 
+## output 
 
 ![Image Alt](assets/images/Screenshot%201.jpg)
 
@@ -293,7 +294,7 @@ FROM
 WHERE
     TABLE_NAME = 'view_uk_youtubers_2024';
 ```
-
+## output
 
 ![Image Alt](assets/images/Screenshot%202.jpg)
 
@@ -314,6 +315,8 @@ FROM
 WHERE
     TABLE_NAME = 'view_uk_youtubers_2024';
 ```
+
+## output 
 
 
 ![Image Alt](assets/images/Screenshot%203.jpg)
@@ -340,6 +343,7 @@ GROUP BY
 HAVING
     COUNT(*) > 1;
 ```
+## output
 
 ![Image Alt](assets/images/Screenshot%204.jpg)
 
@@ -654,6 +658,8 @@ WHERE
 ORDER BY
     net_profit DESC;
 ```
+## output
+
 
 ![Image Alt](assets/images/Image%202026-04-19%20at%2021.50.jpg)
 
@@ -757,6 +763,9 @@ WHERE
 ORDER BY
     net_profit DESC;
 ```
+
+## output
+
 ![Image Alt](assets/images/Image%202026-04-19%20at%2022.06.jpg)
 
 
@@ -855,6 +864,8 @@ WHERE
 ORDER BY
     net_profit DESC;
 ```
+## output
+
 ![Image Alt](assets/images/Image%202026-04-19%20at%2022.16.jpg)
 
 ## Discovery
