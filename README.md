@@ -608,3 +608,51 @@ Campaign idea = product placement
 
 Best option from category: Dan Rhodes
 
+## SQL query
+
+```sql
+/*
+1. Define variables for conversion rate, product cost, and campaign cost
+2. Create a CTE to calculate and round average views per video
+3. Generate calculated fields for sales and revenue estimation
+4. Filter results for selected YouTube channels
+5. Sort results by net profit (highest to lowest)
+*/
+
+-- 1. Define variables
+DECLARE @conversionRate FLOAT = 0.02;      -- 2% conversion rate
+DECLARE @productCost FLOAT = 5.0;          -- $5 product cost
+DECLARE @campaignCost FLOAT = 50000.0;     -- $50,000 campaign cost
+
+-- 2. Create CTE for channel calculations
+WITH ChannelData AS (
+    SELECT 
+        channel_name,
+        total_views,
+        total_videos,
+        ROUND((CAST(total_views AS FLOAT) / total_videos), -4) AS rounded_avg_views_per_video
+    FROM 
+        youtube_db.dbo.view_uk_youtubers_2024
+)
+
+-- 3. Select and calculate metrics
+SELECT 
+    channel_name,
+    rounded_avg_views_per_video,
+    (rounded_avg_views_per_video * @conversionRate) AS potential_units_sold_per_video,
+    (rounded_avg_views_per_video * @conversionRate * @productCost) AS potential_revenue_per_video,
+    ((rounded_avg_views_per_video * @conversionRate * @productCost) - @campaignCost) AS net_profit
+
+-- 4. Filter channels
+FROM 
+    ChannelData
+WHERE 
+    channel_name IN ('NoCopyrightSounds', 'DanTDM', 'Dan Rhodes')
+
+-- 5. Sort results
+ORDER BY
+    net_profit DESC;
+```
+
+
+
