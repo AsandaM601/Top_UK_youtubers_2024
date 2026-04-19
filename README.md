@@ -136,7 +136,7 @@ Some of the data visuals that may be appropriate in answering our questions incl
 
 ## Development
 
-#Pseudocode
+# Pseudocode
 
 What's the general approach in creating this solution from start to finish?
 
