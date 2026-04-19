@@ -293,3 +293,22 @@ WHERE
 
 ![Image Alt](assets/images/Screenshot%202.jpg)
 
+## Data type check
+
+## SQL query
+
+```sql
+/*
+Check the data types of each column from the view using INFORMATION_SCHEMA
+*/
+
+SELECT
+    COLUMN_NAME,
+    DATA_TYPE
+FROM
+    INFORMATION_SCHEMA.COLUMNS
+WHERE
+    TABLE_NAME = 'view_uk_youtubers_2024';
+```
+
+
