@@ -203,7 +203,7 @@ And here is a tabular representation of the expected schema for the clean data:
 
 
 | Column Name	        | Data Type  	|Nullable|
-|--------------------------------------------|
+|---------------------|----------------------|
 | channel_name	      | VARCHAR	    |NO      |
 | total_subscribers  	| INTEGER	    |NO      |
 | total_views	        | INTEGER	    |NO      |
