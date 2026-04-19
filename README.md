@@ -347,3 +347,5 @@ HAVING
 ## Results
 
 - What does the dashboard look like?
+
+![Image Alt](assets/images/ScreenRecording2026-04-19at21.06.43-ezgif.com-speed.gif)
