@@ -233,3 +233,6 @@ SELECT
     total_videos
 FROM
     top_uk_youtubers_2024;
+```
+
+## Create the SQL view
