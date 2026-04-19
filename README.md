@@ -311,4 +311,4 @@ WHERE
     TABLE_NAME = 'view_uk_youtubers_2024';
 ```
 
-
+![Image Alt](assets/images/Screenshot%203.jpg)
