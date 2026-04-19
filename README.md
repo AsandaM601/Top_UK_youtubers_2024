@@ -563,7 +563,7 @@ Calculation breakdown
 
 Campaign idea = product placement
 
-1.NoCopyrightSounds
+# a.NoCopyrightSounds
 
 -Average views per video = 6.92 million
 
@@ -577,7 +577,7 @@ Campaign idea = product placement
 
 -Net profit = $692,000 - $50,000 = $642,000
 
-b. DanTDM
+# b. DanTDM
 
 -Average views per video = 5.34 million
 
@@ -591,7 +591,7 @@ b. DanTDM
 
 -Net profit = $534,000 - $50,000 = $484,000
 
-c. Dan Rhodes
+# c. Dan Rhodes
 
 -Average views per video = 11.15 million
 
