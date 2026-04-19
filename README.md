@@ -274,9 +274,9 @@ FROM
 ```
 ![Image Alt](assets/images/Screenshot%201.jpg)
 
-##Column count check
+## Column count check
 
-##SQL query
+## SQL query
 
 ```sql
 /*
@@ -291,5 +291,5 @@ WHERE
     TABLE_NAME = 'view_uk_youtubers_2024';
 ```
 
-
+![Image Alt](assets/images/Screenshot%202.jpg)
 
