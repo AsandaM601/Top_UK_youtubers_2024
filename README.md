@@ -71,7 +71,6 @@ Where is the data coming from? The data is sourced from Kaggle (an Excel extract
 
 # Stages
 
-# Design
 Developement
 
 Testing
@@ -79,6 +78,8 @@ Testing
 Analysis
 
 Design
+
+# Design
 
 # Dashboard components required
 
