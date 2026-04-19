@@ -316,3 +316,26 @@ WHERE
 
 
 ![Image Alt](assets/images/Screenshot%203.jpg)
+
+
+## Duplicate count check
+
+## SQL query
+
+```sql
+/*
+1. Check for duplicate rows in the view
+2. Group by the channel name
+3. Filter for groups with more than one row
+*/
+
+SELECT
+    channel_name,
+    COUNT(*) AS duplicate_count
+FROM
+    view_uk_youtubers_2024
+GROUP BY
+    channel_name
+HAVING
+    COUNT(*) > 1;
+```
