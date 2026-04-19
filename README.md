@@ -757,3 +757,4 @@ WHERE
 ORDER BY
     net_profit DESC;
 ```
+![Image Alt](assets/images/Image%202026-04-19%20at%2022.06.jpg)
