@@ -856,3 +856,48 @@ ORDER BY
     net_profit DESC;
 ```
 ![Image Alt](assets/images/Image%202026-04-19%20at%2022.16.jpg)
+
+## Discovery
+
+### What did we learn?
+
+We discovered that:
+
+- NoCopyrightSounds, Dan Rhodes, and DanTDM are the channels with the most subscribers in the UK
+- GRM Daily, Manchester City, and Yogscast are the channels with the most videos uploaded
+- DanTDM, Dan Rhodes, and Mister Max are the channels with the highest total views
+- Entertainment channels are useful for broader reach because the channels posting consistently and generating the most engagement are focused on entertainment and music
+
+## Recommendations
+
+### What do you recommend based on the insights gathered?
+
+- Dan Rhodes is the best YouTube channel to collaborate with if the goal is to maximize visibility because the channel has one of the largest subscriber bases in the UK
+- Although GRM Daily, Manchester City, and Yogscast are frequent publishers on YouTube, it may not be worth collaborating with them under the current budget constraints because their potential return on investment is significantly lower
+- Mister Max is the best YouTuber to collaborate with if the goal is maximizing reach, but DanTDM and Dan Rhodes may be better long-term options because they both have large subscriber bases and consistently high view counts
+- The top three channels to form partnerships with are NoCopyrightSounds, DanTDM, and Dan Rhodes because they attract the most engagement consistently
+
+## Potential ROI
+
+### What ROI do we expect if we take this course of action?
+
+- Collaborating with Dan Rhodes could generate an estimated net profit of $1,065,000 per video
+- An influencer marketing contract with Mister Max could generate a net profit of $1,276,000
+- A product placement campaign with DanTDM could generate approximately $484,000 per video
+- If an influencer marketing campaign is chosen instead for DanTDM, it could generate a one-time net profit of around $404,000
+- NoCopyrightSounds could also generate around $642,000 profit per video
+
+## Action Plan
+
+### What course of action should we take and why?
+
+Based on the analysis, the best long-term partnership opportunity is with Dan Rhodes because of the strong subscriber base, high viewership, and strong profit potential.
+
+The next step is to discuss expectations with the marketing client and define the outcomes they want from the collaboration. Once those targets are achieved, additional partnerships with DanTDM, Mister Max, and NoCopyrightSounds can be considered.
+
+### Implementation Steps
+
+1. Reach out to the teams behind each of the selected channels, starting with Dan Rhodes
+2. Negotiate contracts within the available campaign budgets
+3. Launch the campaigns and monitor their performance against the defined KPIs
+4. Review campaign results, gather feedback, and optimize future campaigns based on customer responses and audience engagement
